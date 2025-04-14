@@ -1,0 +1,16 @@
+numSecreto = 6
+tentativas = 3
+player1 = 0
+player2 = 0
+while player1 < tentativas and player2 < tentativas:
+  palpite = int(input("Player 1, tente um numero: "))
+  player1 += 1
+  if palpite == numSecreto:"palpite": Unknown word.cSpell
+  "palpite2" is not definedPylancereportUndefinedVariable
+  (function) palpite2: Any
+    print('Você venceu')
+    break
+  else:
+    print('Player 1 perdeu')
+  palpite2input('Player 2, tente um numero: '))
+  player += 
