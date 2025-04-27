@@ -1,0 +1,2 @@
+nt = float(input('Insira uma nota: '))
+if 

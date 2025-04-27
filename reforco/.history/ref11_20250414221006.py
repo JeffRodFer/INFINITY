@@ -1,0 +1,1 @@
+print('-----Verificação de faixa etária')

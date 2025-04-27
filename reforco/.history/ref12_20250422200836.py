@@ -1,0 +1,1 @@
+nt = float(input('Insira um'))
