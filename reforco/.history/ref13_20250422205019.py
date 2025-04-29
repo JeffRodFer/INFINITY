@@ -1,0 +1,5 @@
+print('------------ IMC -------------')
+print('Entre 18.5 e 24.99 = Peso Normal')
+print('Entre 25.00 e 29.99 = Peso Normal')
+print('Entre 30.00 e 34.99 = Peso Normal')
+print('Acima  = Peso Normal')

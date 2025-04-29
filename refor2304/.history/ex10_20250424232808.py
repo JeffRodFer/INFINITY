@@ -1,0 +1,8 @@
+cont = 0
+soma = 0
+while soma < 5:
+  if soma < 50:
+    cont += 1
+    soma += cont
+  else:
+    print(soma)

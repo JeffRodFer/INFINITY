@@ -1,0 +1,4 @@
+n = 10
+while num <= n:
+  cont = cont 
+  print(f'Olha o {num}')
