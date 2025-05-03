@@ -3,5 +3,5 @@
 # Crie um programa que use um laço for para somar
 # todos os números de 1 a 100 e exiba o resultado.
 
-for i in range(5):
-  print('normal',i)
+for i in range(0, 5):
+    print('normal',i)
