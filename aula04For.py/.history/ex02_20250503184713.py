@@ -4,5 +4,6 @@
 # todos os números de 1 a 100 e exiba o resultado.
 s = 0
 for i in range(5):
-  s += i
+
+  s += 
   print('normal',s)
