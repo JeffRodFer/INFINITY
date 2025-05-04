@@ -5,7 +5,7 @@
 # classificação ("Aprovado" para média >= 6,"Reprovado" para média < 6).
 sn = 0
 n = 0
-for i in range(5):
+for i in range(3):
   n = float(input('Digite a nota: '))
   i += 1
   sn += n
@@ -14,4 +14,4 @@ for i in range(5):
 if m >= 6:
   print(f'Média {m:.2f}: Aprovado!')
 else:
-  print(f'{m:.2f} Reprovado!')
+  print(f'Reprovado!')

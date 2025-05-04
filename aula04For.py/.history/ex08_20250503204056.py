@@ -5,7 +5,7 @@
 # classificação ("Aprovado" para média >= 6,"Reprovado" para média < 6).
 sn = 0
 n = 0
-for i in range(5):
+for i in range(3):
   n = float(input('Digite a nota: '))
   i += 1
   sn += n
