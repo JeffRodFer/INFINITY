@@ -1,0 +1,40 @@
+# 7 - Algoritmo de Conversão de Tempo:
+# Desenvolva um algoritmo que converta uma quantidade de
+# segundos fornecida pelo usuário em horas, minutos e segundos.
+# h = 3.600   m = 60   s = 1
+h = 0
+m = 0
+seg_fin = 0
+seg_rest = 0
+total_seg = 0
+
+# while True:
+#   entr_seg_str = int(input('Insira os segundos: '))
+
+#   eh_num = True
+#   if not entr_seg_str.isdigit():
+#     if len(entr_seg_str) > 1 and entr_seg_str[0] == '-' and entr_seg_str[1:].isdigit():
+#       eh_num = True
+#     else:
+#       eh_num = False
+
+#     if eh_num:
+#       total_seg = int(entr_seg_str)
+#       if total_seg >= 0:
+#         break
+#       else:
+#         print('A quantidade de segundos não pode ser negativa')
+#     else:
+#       print('Entrada invalida.')
+
+entr_seg
+while seg_rest >= 3600:
+  h = h + 1
+  seg_rest = seg_rest - 3600
+
+while seg_rest >= 60:
+  min = min + 1
+  seg_rest = seg_rest - 60
+
+print(f'{total_seg} segundos equivalem a:')
+print(f'{h} horas, {m} minutos e {seg_fin} segundos')
