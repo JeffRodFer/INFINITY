@@ -8,6 +8,4 @@ c = 0
 # n = int(input('Digite um numero: '))
 while c <= 100:
   c += 1
-  if c % 2 == 0:
-    s += c
-    print(s)
+  if c % 2 == 0
