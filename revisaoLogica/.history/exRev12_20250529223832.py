@@ -10,15 +10,14 @@ senha = input('Cadastre o código: ')
 while True:
   user = input('Usuário: ')
   if login == user:
-    # print(f'{user}')
+    continue
     ki = input('Digite a senha: ')
     if senha == ki:
       print('User OK!')
-      print('Key OK!')
       print('Welcome to OS!')
       break
-    else:
-      print('Wrong key')
+      else:
+        print('Wrong key')
   
 
     

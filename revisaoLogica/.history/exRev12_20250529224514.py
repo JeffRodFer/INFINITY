@@ -10,7 +10,7 @@ senha = input('Cadastre o código: ')
 while True:
   user = input('Usuário: ')
   if login == user:
-    # print(f'{user}')
+    print(f'{user}')
     ki = input('Digite a senha: ')
     if senha == ki:
       print('User OK!')
@@ -19,6 +19,7 @@ while True:
       break
     else:
       print('Wrong key')
+  
   
 
     
