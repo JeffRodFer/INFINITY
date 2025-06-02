@@ -8,10 +8,6 @@ word = input('Word: ')
 while palavra != word:
   palavra = input('Digite a palavra: ')
   if palavra == word:
-    print('Acertou!')
-  
-for palavra in word:
-  print(palavra)
-
-for palavra in len(palavra) -1:
-  print(palavra)
+    print('Acertou')
+  for palavra in word:
+    print(palavra)

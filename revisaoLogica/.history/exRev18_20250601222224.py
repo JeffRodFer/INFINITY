@@ -16,7 +16,7 @@ while c < 3:
   if login == user and senha == ki:
     print('User OK!')
     print('Key OK!')
-    print('Welcome to OS!')
-    break
-  else:
-    print('Usuário ou senha incorretos. Tente novamente.')  
+      print('Welcome to OS!')
+      break
+    else:
+      print('Usuário ou senha incorretos. Tente novamente.')  

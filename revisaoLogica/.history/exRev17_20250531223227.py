@@ -12,6 +12,3 @@ while palavra != word:
   
 for palavra in word:
   print(palavra)
-
-for palavra in len(palavra) -1:
-  print(palavra)

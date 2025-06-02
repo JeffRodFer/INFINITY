@@ -17,6 +17,6 @@ while c < 3:
     print('User OK!')
     print('Key OK!')
     print('Welcome to OS!')
-    break
-  else:
-    print('Usuário ou senha incorretos. Tente novamente.')  
+      break
+    else:
+      print('Usuário ou senha incorretos. Tente novamente.')  

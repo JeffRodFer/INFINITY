@@ -9,10 +9,12 @@ c = 0
 login = input('Persona: ')
 senha = int(input('Cadastre o código: '))
 
-while c < 3:
-  user = input('Usuário: ')
-  ki = int(input('Digite a senha: '))
-  c += 1
+while True:
+  while c < 3:
+    user = input('Usuário: ')
+    ki = int(input('Digite a senha: '))
+    c += 
+
   if login == user and senha == ki:
     print('User OK!')
     print('Key OK!')

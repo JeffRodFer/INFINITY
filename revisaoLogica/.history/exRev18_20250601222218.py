@@ -12,11 +12,11 @@ senha = int(input('Cadastre o código: '))
 while c < 3:
   user = input('Usuário: ')
   ki = int(input('Digite a senha: '))
-  c += 1
-  if login == user and senha == ki:
-    print('User OK!')
-    print('Key OK!')
-    print('Welcome to OS!')
-    break
-  else:
-    print('Usuário ou senha incorretos. Tente novamente.')  
+    c += 1
+    if login == user and senha == ki:
+      print('User OK!')
+      print('Key OK!')
+      print('Welcome to OS!')
+      break
+    else:
+      print('Usuário ou senha incorretos. Tente novamente.')  

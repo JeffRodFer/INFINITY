@@ -10,8 +10,5 @@ while palavra != word:
   if palavra == word:
     print('Acertou!')
   
-for palavra in word:
-  print(palavra)
-
-for palavra in len(palavra) -1:
-  print(palavra)
+  for palavra in word:
+    print(palavra)
