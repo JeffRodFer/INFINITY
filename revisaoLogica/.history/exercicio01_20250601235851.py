@@ -12,7 +12,7 @@ for i in range(ini, fim):
   else:
     print(f'Não há numeros pares no intervalo.{soma}')
     print(ini)
-    print(fim)
+  print(fim)
 
 
 print(soma)

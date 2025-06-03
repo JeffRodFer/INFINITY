@@ -6,7 +6,7 @@ fim = int(input('Numero final: '))
 if fim < ini:
   ini, fim = fim, ini
 
-for i in range(ini, fim):
+for i in range(fim):
   if i % 2 == 0:
     soma += i
   else:

@@ -10,9 +10,9 @@ for i in range(ini, fim):
   if i % 2 == 0:
     soma += i
   else:
-    print(f'Não há numeros pares no intervalo.{soma}')
-    print(ini)
-    print(fim)
+  print(f'Não há numeros pares no intervalo.{soma}')
+  print(ini)
+  print(fim)
 
 
 print(soma)
