@@ -14,9 +14,9 @@ for i in range(2, -1, -1):
     print('Seja bem vindo!')
     break
   elif i == 2:
-    print(f'Negado. Restam {i} tentativas.')
+    print(f'Restam {i} tentativas.')
   elif i == 1:
-    print(f'Negado. Resta {i} tentativa.')
+    print(f'Resta 1 tentativa.')
   else:
     print(15 * '--')
     print(f'Acesso bloqueado.')

@@ -16,7 +16,7 @@ for i in range(2, -1, -1):
   elif i == 2:
     print(f'Negado. Restam {i} tentativas.')
   elif i == 1:
-    print(f'Negado. Resta {i} tentativa.')
+    print(f'Negado.Resta {i} tentativa.')
   else:
     print(15 * '--')
     print(f'Acesso bloqueado.')

@@ -5,18 +5,16 @@
 
 user = 'abre'
 ki = '1234'
-for i in range(2, -1, -1):
-  print(15 * '--')
+for i in range(2, -, -1):
   usuario = input('Insira o usuario: ')
   senha = input('Digite a senha: ')
 
   if usuario == user and senha == ki:
-    print('Seja bem vindo!')
-    break
+    print('Acesso liberado!')
   elif i == 2:
-    print(f'Negado. Restam {i} tentativas.')
+    print(f'Restam 2 tentativas.')
   elif i == 1:
-    print(f'Negado. Resta {i} tentativa.')
+    print(f'Resta 1 tentativa.')
   else:
-    print(15 * '--')
-    print(f'Acesso bloqueado.')
+    print(f'{i} Tentativas encerradas.')
+    print(f'Acesso negado.')
