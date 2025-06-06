@@ -1,0 +1,1 @@
+frutas = ('laranja', 'banana', 'maça', 'uva')
