@@ -1,0 +1,3 @@
+escalacao = [
+  R.Ceni
+]
