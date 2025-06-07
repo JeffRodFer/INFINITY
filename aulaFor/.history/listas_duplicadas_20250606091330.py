@@ -1,0 +1,12 @@
+lista = ['Jeff', 30, 1.77, 'Rod', 30, 1.77, 'Jeff']
+lista2 = []
+
+for i in lista:
+  if i in lista2:
+    continue
+  lista2.append(i)
+
+print(lista)
+print(len(lista))t
+print(lista2)
+print(len(lista2))

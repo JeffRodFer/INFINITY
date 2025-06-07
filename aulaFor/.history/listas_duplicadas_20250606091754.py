@@ -1,0 +1,15 @@
+lista = ['Jeff', 30, 1.77, 'Rod', 30, 1.77, 'Jeff']
+lista2 = []
+lista3 = [12, 15, 13, 10]
+
+for i in lista:
+  if i in lista2:
+    continue
+  lista2.append(i)
+
+print('Lista 1: ', lista)
+print(len(lista))
+print(sum(lista3))
+
+print(''lista2)
+print(len(lista2))
