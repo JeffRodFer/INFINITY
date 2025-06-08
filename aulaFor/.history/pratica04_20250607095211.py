@@ -1,0 +1,3 @@
+lista = (
+  ['Jeff', 'HTML', 'Bra']
+)
