@@ -10,7 +10,7 @@ times = [
 for equipes, pontuacao in times:
   media = sum(pontuacao) / len(pontuacao)
   medias.append((equipes, media))
-  medias.sort(key=lambda item: item[1], reverse=True)
+  # medias.sort(key=lambda item: item[1], reverse=True)
 
   classificacao = medias
 print(10 * '--', 'RESULTADO FINAL', '--' * 10)

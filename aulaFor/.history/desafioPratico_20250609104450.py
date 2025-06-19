@@ -13,7 +13,7 @@ for equipes, pontuacao in times:
   medias.sort(key=lambda item: item[1], reverse=True)
 
   classificacao = medias
-print(10 * '--', 'RESULTADO FINAL', '--' * 10)
+print(10 * '--', 'RESULTADO FINAL')
 for i, (equipes, media) in enumerate(classificacao):
   print(f'{i + 1} - {equipes} = {media:.2f}')
 
