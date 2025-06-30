@@ -1,0 +1,3 @@
+dicionarios = {
+  'Instituição':'MP$'
+}
