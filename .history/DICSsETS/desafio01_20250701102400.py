@@ -23,13 +23,4 @@ while True:
   elif opcao == 1:
     nome_prod = input('Produto: ')
     preco_prod = float(input('Preço: '))
-    produtos[nome_prod] = preco_prod
-
-    lista_prod = {
-      'nome': nome_prod,
-      'preco': preco_prod
-    }
-    lista_prod.append(produtos)
-
-  for nome, preco in produtos.items():
-    print(f'Produto: {nome_prod}: - Preço: {preco_prod:.2f}')
+    produtod[nome_prod] = preco

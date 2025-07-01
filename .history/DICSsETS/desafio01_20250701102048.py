@@ -11,25 +11,13 @@
 # Desenvolva o programa em Python utilizando conceitos de
 # entrada/saída de dados, condicionais e laços de repetição.
 
-produtos = []
+
 print('--' * 10)
 while True:
   print('Digite 1 para cadastrar e 0 para encerrar: ')
   opcao = int(input('Digite a opção: '))
 
   if opcao == 0 or opcao > 1:
-    print('Opção inválida')
+    print('Op')
     break
   elif opcao == 1:
-    nome_prod = input('Produto: ')
-    preco_prod = float(input('Preço: '))
-    produtos[nome_prod] = preco_prod
-
-    lista_prod = {
-      'nome': nome_prod,
-      'preco': preco_prod
-    }
-    lista_prod.append(produtos)
-
-  for nome, preco in produtos.items():
-    print(f'Produto: {nome_prod}: - Preço: {preco_prod:.2f}')

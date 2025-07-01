@@ -11,7 +11,7 @@
 # Desenvolva o programa em Python utilizando conceitos de
 # entrada/saída de dados, condicionais e laços de repetição.
 
-produtos = []
+produtos = {}
 print('--' * 10)
 while True:
   print('Digite 1 para cadastrar e 0 para encerrar: ')
