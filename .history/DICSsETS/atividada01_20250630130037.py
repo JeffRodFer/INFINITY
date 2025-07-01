@@ -1,5 +1,5 @@
 c = 0
-while c < 3:
+while c <= 3:
   idade = int(input('Digite a sua idade: '))
   c += 1
   if idade < 12:

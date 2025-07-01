@@ -1,0 +1,24 @@
+jovem = 0
+adulta = 0
+idosa = 0
+s_j = 0
+s_a = 0
+s_i = 0
+mj = 0
+ma = 0
+mi = 0
+c = 0
+md = 0
+
+for i in range(9):
+  n = int(input('Digite a sua idade: '))
+  soma += n
+  c += 1
+
+
+  
+
+  mj = s_j / jovem
+  ma = s_a / adulta
+  mi = s_i / idosa
+
