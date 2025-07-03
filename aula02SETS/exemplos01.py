@@ -16,13 +16,35 @@
 # print(convidados)
 # convidados.add('Leo')
 # print(convidados)
+# print('--' * 10)
+# ids = {10, 11, 12, 13}
+# print(ids)
+# new_ids = {9, 14}
+# ids.update(new_ids)
+# print(ids)
+# print('--' * 10)
+# convidados = {'Jeff', 'Rodr', 'Ferr'}
+# print(convidados)
+# print('Leo' in convidados)
+# for x in convidados:
+#   print(x)
+
+# convidados.add('Leoo')
+# convidados.add('Cebb')
+# print(convidados)
+# convidados.remove('Leoo')
+# convidados.discard('Cebb')
+# print(convidados)
+# print('--' * 10)
+# convidados = {'Jeff', 'Rodr', 'Ferr'}
+# convidados2 = {'Leoo', 'Cebb', 'Jeff'}
+# print(convidados.intersection(convidados2))
+# print(convidados2)
+# print(convidados)
+# convidados.intersection_update(convidados2)
+# print(convidados)
 print('--' * 10)
-ids = {10, 11, 12, 13}
-print(ids)
-new_ids = {9, 14}
-ids.update(new_ids)
-print(ids)
-print('--' * 10)
-convidados = {'Jeff', 'Rodr', 'Ferr'}
-print(convidados[1])
-print('Leo' in convidados)
+set = {1, 2, 3}
+set1 = {'x', 'y', 'z'}
+print(set.union(set1))
+print(set | set1)
