@@ -72,19 +72,75 @@
 #   print(dicionario)
 # 11 Escreva um programa que recebe um dicionário e uma lista de chaves como entrada e verifica se todas as
 # chaves da lista existem no dicionário. A função deve retornar True se todas as chaves existirem e False caso contrário.
-dic_um = {'nome': 'jeff', 'idade': 30, 'cidade': 'americana'}
-lista_chaves = ['estado', 'nome']
-todas_presentes = True
+# dic_um = {'nome': 'jeff', 'idade': 30, 'cidade': 'americana'}
+# lista_chaves = ['estado', 'sexo']
 
-print(f'Dicionario: {dic_um}')
-print(f'Chaves a verificar: {lista_chaves}')
+# print(f'Dicionario: {dic_um}')
+# print(f'Chaves a verificar: {lista_chaves}')
 
-for chave in lista_chaves:
-  if chave not in dic_um:
-    todas_presentes = True
+# todas_presentes = True
+
+# for chave in lista_chaves:
+#   if chave not in dic_um.keys():
+#     todas_presentes = True
+#   else:
+#     todas_presentes = False
+
+# print(f'Resposta: {todas_presentes}')
+ # 12 Crie um programa que simule um sistema de votação. O
+# programa deve permitir que os eleitores escolham entre
+# opções de eleitores e conte os votos para cada opção.
+# Use um dicionário para armazenar os resultados da votação, onde as chaves são as opções e os valores são o número de votos para cada opção. O programa deve permitir que os eleitores votem, encerre a votação e exiba os resultados finais. Use While True e pare o programa somente se o usuário digitar o número 0 e exiba os resultados finais.
+
+# candidatos = {
+#   '1--jeff': 0,
+#   '2--rodr': 0,
+#   '3--ferr': 0
+# }
+# while True:
+#   voto = int(input('Digite o seu voto: '))
+#   if voto == 1:
+#     candidatos['1--jeff'] += 1
+#   elif voto == 2:
+#     candidatos['2--rodr'] += 1
+#   elif voto == 3:
+#     candidatos['3--ferr'] += 1
+#   elif voto == 0:
+#     print('Votação encerrada.')
+#     break
+# print(candidatos)
+
+# 13 Crie um dicionário que relacione nomes de alunos às suas notas em uma disciplina. Calcule a média das notas e exiba-a.
+
+alunos = {
+  'nome': '',
+  'medias': ''
+}
+soma = 0
+media = 0
+c = 0
+n = 0
+while True:
+  print('--' * 10)
+  n = int(input('Digite 1 para inserir notas de alunos ou 2 para finalizar: '))
+  if n == 2:
     break
-  else:
-    todas_presentes = False
+  elif n == 1:
+    aluno = input('Nome do aluno: ')
+    nota = float(input('Nota: '))
+    nota = float(input('Nota: '))
+    nota = float(input('Nota: '))
+    c += 1
+    soma += nota
+    media = soma / c
 
-print(f'Resposta: {todas_presentes}')
- 
+  alunos['aluno'] = media
+
+  if media >= 6.5:
+    resultado = 'Aprovado'
+  else:
+    resultado = 'reprovado'
+
+print(aluno, media, resultado)
+print(alunos)
+  
