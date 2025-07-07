@@ -23,7 +23,7 @@ while True:
   elif opcao == 1:
     nome_prod = input('Produto: ')
     preco_prod = float(input('Preço: '))
-    produtos[nome_prod] = preco_prod
+    produtos['nome_prod'] = preco_prod
 
     lista_prod = {
       'nome': nome_prod,

@@ -112,35 +112,89 @@
 
 # 13 Crie um dicionário que relacione nomes de alunos às suas notas em uma disciplina. Calcule a média das notas e exiba-a.
 
-alunos = {
-  'nome': '',
-  'medias': ''
-}
-soma = 0
-media = 0
-c = 0
-n = 0
+# alunos = {
+#   'jeff': 8.4,
+#   'rodr': 7.6,
+#   'ferr': 7.8
+# }
+# soma_notas = 0.0
+# qtd_alunos = 0
+
+# for notas in alunos.values():
+#   soma_notas += notas
+#   qtd_alunos += 1
+
+# if qtd_alunos > 0:
+#   media_notas = soma_notas / qtd_alunos
+#   print(f'A média das notas da turma é {media_notas:.2f}')
+# else:
+#   print('Sem alunos')
+
+# 14 Crie um programa que receba uma lista de números e remova todas as duplicatas usando um conjunto (set). 
+# Em seguida, exiba a lista original e a lista sem duplicatas.
+# num = [2,3,5,2,6,3,6]
+# num1 = set(num)
+
+# print(num)
+# print(num1)
+
+# 15 Crie um programa que realize a união de múltiplos
+# conjuntos e exiba o conjunto resultante.
+# lista1 = {1, 2, 3, 4}
+# lista2 = {4, 5, 6}
+# lista3 = {6, 7, 4, 1}
+
+# new_num = set(lista1 | lista2 | lista3)
+# print(new_num)
+
+# # 16 O programa deve permitir ao usuário
+# cadastrar alunos. Cada aluno terá as seguintes
+# informações: nome, idade e notas em três disciplinas: Matemática, Ciências e História. Os dados de cada aluno
+# devem ser armazenados em um dicionário com as seguintes chaves: 'nome', 'idade', 'notas'. As notas devem ser armazenadas em uma tupla.
+
+lista_alunos = []
 while True:
-  print('--' * 10)
-  n = int(input('Digite 1 para inserir notas de alunos ou 2 para finalizar: '))
-  if n == 2:
+  print('Novo Aluno: ')
+  nome = input('Nome: ')
+  if nome.lower() == 'fim':
     break
-  elif n == 1:
-    aluno = input('Nome do aluno: ')
-    nota = float(input('Nota: '))
-    nota = float(input('Nota: '))
-    nota = float(input('Nota: '))
-    c += 1
-    soma += nota
-    media = soma / c
 
-  alunos['aluno'] = media
+  while True:
+    try:
+      idade = int(input(f'Digite a idade de {nome}: '))
+      if idade <= 0:
+        print('A idade deve ser um numero positivo. Tente novamente.')
+      else:
+        break
+    except ValueError:
+      print('Idade inválida. Por favor, digite um numero inteiro.')
 
-  if media >= 6.5:
-    resultado = 'Aprovado'
-  else:
-    resultado = 'reprovado'
+  notas_disc = []
+  disciplinas = ['mat ', 'por ', 'geo ']
 
-print(aluno, media, resultado)
-print(alunos)
-  
+  for disciplina in disciplinas:
+    while True:
+      nota_str = input(f'{nome}: {disciplinas} ')
+      nota = float(nota_str)
+      if nota >= 0 and nota <= 10:
+        notas_disc.append(nota)
+        break
+      else:
+        print('Nota invalida')
+
+  aluno = {
+        'nome': nome,
+        'idade': idade,
+        'notas': tuple(notas_disc)
+  }
+
+  lista_alunos.append(aluno)
+  # print(f'\n {aluno} cadastrado com sucesso.')
+
+if not lista_alunos:
+  print('Nenhum cadastrado!')
+else:
+  for aluno_cadastrado in lista_alunos:
+      print(f'{nome} : {idade}')
+      print(f'Notas (Matemática, Português e Geografia): {aluno_cadastrado['notas']}')
+      print('--' * 6)

@@ -44,7 +44,7 @@
 # convidados.intersection_update(convidados2)
 # print(convidados)
 print('--' * 10)
-set = {1, 2, 3}
+set = {1, 2, 3, 'a'}
 set1 = {'x', 'y', 'z'}
 print(set.union(set1))
 print(set | set1)
